@@ -1,0 +1,4 @@
+# Common properties for all services
+server:
+  servlet:
+    context-path: /api # All services will have /api as a context path if not overridden
