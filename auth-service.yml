@@ -6,7 +6,7 @@ spring:
     username: ${AUTH_SERVICE_USER}
     password: ${AUTH_SERVICE_PASSWORD}
     driver-class-name: org.postgresql.Driver
-  
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -21,3 +21,8 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:9090/realms/majheriserve
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
