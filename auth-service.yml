@@ -23,11 +23,14 @@ spring:
           issuer-uri: http://localhost:9090/realms/majheriserve
 
 keycloak:
+  server-url: http://localhost:9090
+  realm: majheriserve # The realm that our admin client will manage
+  
   admin:
-    server-uri: http://localhost:9090
-    realm: majheriserve # The realm that our admin client will manage
     client-id: majheriserve-backend-admin # A confidential client with a service account for our auth-service to programmatically manage Keycloak resources
     client-secret: ${KEYCLOAK_ADMIN_CLIENT_SECRET}
+  auth:
+    client-id: majheriserve-backend
 
 logging:
   level:
