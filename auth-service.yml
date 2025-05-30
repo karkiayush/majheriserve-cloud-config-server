@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:postgresql://auth-service-db:5432/${AUTH_SERVICE_D}
+    url: jdbc:postgresql://auth-service-db:5432/${AUTH_SERVICE_DB}
     username: ${AUTH_SERVICE_USER}
     password: ${AUTH_SERVICE_PASSWORD}
     driver-class-name: org.postgresql.Driver
