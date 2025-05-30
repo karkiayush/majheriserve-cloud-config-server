@@ -28,7 +28,7 @@ keycloak:
   
   admin:
     client-id: majheriserve-backend-admin # A confidential client with a service account for our auth-service to programmatically manage Keycloak resources
-    client-secret: ${KEYCLOAK_ADMIN_CLIENT_SECRET}
+    client-secret: qgafmhoYNsJ2sot9fStQUiytWGe95vzK
   auth:
     client-id: majheriserve-backend
 
