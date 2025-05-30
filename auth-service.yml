@@ -21,6 +21,14 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:9090/realms/majheriserve
+
+keycloak:
+  admin:
+    server-uri: http://localhost:9090
+    realm: majheriserve # The realm that our admin client will manage
+    client-id: majheriserve-backend-admin # A confidential client with a service account for our auth-service to programmatically manage Keycloak resources
+    client-secret: qgafmhoYNsJ2sot9fStQUiytWGe95vzK
+
 logging:
   level:
     org:
