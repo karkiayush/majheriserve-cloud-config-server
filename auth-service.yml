@@ -35,5 +35,10 @@ keycloak:
 logging:
   level:
     org:
+      keycloak:
+        admin:
+          client: DEBUG
       springframework:
+        web:
+          client: DEBUG
         security: DEBUG
