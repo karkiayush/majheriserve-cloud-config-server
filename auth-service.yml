@@ -31,6 +31,7 @@ keycloak:
     client-secret: qgafmhoYNsJ2sot9fStQUiytWGe95vzK
   auth:
     client-id: majheriserve-backend
+    client-secret: qWskXP0ysnIksy4HOWqyvOH9kjwR437B
 
 logging:
   level:
